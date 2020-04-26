@@ -1,0 +1,11 @@
+<h1>WALT'S WORD COUNT</h1>
+
+<a href="{% url 'about' %}" >About Page</a>
+  <br />
+<form action="{% url 'count' %}">
+  <textarea cols="40" rows="10" name="fulltext"></textarea>
+  <br />
+  <br />
+  <input type="submit" value='Count!' />
+  <br />
+<form/>
